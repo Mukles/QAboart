@@ -3,6 +3,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .title {
+    @apply font-Comfortaa font-bold leading-10 text-2xl text-center lg:text-left lg:text-5xl lg:leading-[4.375rem];
+  }
+  .pera {
+    @apply text-center text-sm leading-5 lg:leading-10 font-light font-Poppins lg:text-left lg:text-2xl;
+  }
+}
+
 .QAboat-shadow {
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
 }
