@@ -18,11 +18,13 @@
   <body class="font-Comfortaa">
     <header>
       <nav>
-        <div class="bg-white">
+        <!--background-->
+        <div class="bg-white QAboat-shadow">
+          <!--container-->
           <div class="container mx-auto">
-            <div
-              class="flex justify-between items-center QAboat-shadow mb-1 px-2"
-            >
+            <!--Large Nav-->
+            <div class="flex justify-between items-center mb-1 px-2">
+              <!---Mboile nav-->
               <div class="flex flex-1 justify-between items-center py-3">
                 <a class="nav-brand" href="">
                   <h3 class="text-QAboat-blue text-5xl font-semibold">
@@ -33,7 +35,9 @@
                   <i class="fa-solid fa-bars"></i>
                 </button>
               </div>
+              <!--menu items-->
               <ul class="lg:flex space-x-5 items-center hidden">
+                <!---item 1-->
                 <li>
                   <a class="text-QAboat-black text-2xl" href="">
                     <span>service</span>
@@ -42,6 +46,7 @@
                     </span>
                   </a>
                 </li>
+                <!--item 2-->
                 <li>
                   <a class="text-QAboat-black text-2xl" href="">
                     <span>Why QAboat?</span>
@@ -50,6 +55,7 @@
                     </span>
                   </a>
                 </li>
+                <!--item 3-->
                 <li>
                   <a class="text-QAboat-black text-2xl" href="">
                     <span>Contact us</span>
@@ -57,45 +63,203 @@
                 </li>
               </ul>
             </div>
-            <!---Nav boady--->
-            <div class="pt-5 flex items-center flex-col space-y-5 px-5">
-              <img src="./img/Group 409.png" alt="" srcset="" />
-              <h3 class="font-Poppins font-bold text-2xl text-center">
-                One stop solution for all your
-                <span class="text-QAboat-blue">software testing</span> needs.
-              </h3>
-              <p class="text-center text-sm font-light font-Poppins px-3">
-                We bring together a global network of expert Trainers ,
-                dedicated consulting services and QA recuitment specialist to
-                provide flexible and strategic software testing at scale.
-              </p>
-              <button
-                class="bg-QAboat-blue rounded-md px-4 mx-auto text-sm font-Poppins py-3 text-white"
-              >
-                <i class="fa-solid fa-phone"></i>
-                <span class="ml-3">SCHEDULE CALL</span>
-              </button>
-            </div> 
           </div>
         </div>
       </nav>
     </header>
     <main>
-      <div class="bg-[url('../img/Vector6.png')] h-screen pt-10 bg-no-repeat bg-
-      ">
-        <div class="container px-2">
-          <h1 class="text-center font-bold font-Comfortaa text-2xl">
-            What we 
-            <span class="text-QAboat-blue">provide?</span>
+      <!---Home-->
+      <section id="home" class="pb-16">
+        <!--felx box-->
+        <div class="pt-5 flex items-center flex-col space-y-5 px-5">
+          <!--img-->
+          <img src="./img/Group 409.png" alt="" srcset="" />
+          <!--title-->
+          <h3 class="font-Poppins font-bold text-2xl text-center">
+            One stop solution for all your
+            <span class="text-QAboat-blue">software testing</span> needs.
+          </h3>
+          <!--Descreption-->
+          <p class="text-center text-sm font-light font-Poppins">
+            We bring together a global network of expert Trainers , dedicated
+            consulting services and QA recuitment specialist to provide flexible
+            and strategic software testing at scale.
+          </p>
+          <!--button-->
+          <button
+            class="bg-QAboat-blue rounded-md px-4 mx-auto text-sm font-Poppins py-3 text-white"
+          >
+            <i class="fa-solid fa-phone"></i>
+            <span class="ml-3">SCHEDULE CALL</span>
+          </button>
+        </div>
+      </section>
+
+      <!--What we Provide -->
+      <section id="whatWeProvide" class="py-10">
+        <!--background-->
+        <div
+          class="bg-[url('../img/Vector6.png')] pt-10 bg-no-repeat bg-133 flex items-center bg-70 pb-5"
+        >
+          <div
+            class="container px-2 flex flex-col space-y-5 justify-center items-center pb-14"
+          >
+            <!---Title-->
+            <h1
+              class="text-center font-bold font-Comfortaa text-2xl pt-16 pb-10"
+            >
+              What we
+              <span class="text-QAboat-blue">provide?</span>
+            </h1>
+
+            <!--Image box 1-->
+            <div class="relative px-3">
+              <!---img-->
+              <img class="w-" src="./img/Group 1 (2).png" alt="" srcset="" />
+              <!---content-->
+              <div
+                class="absolute top-0 left-0 w-full px-5 flex justify-center items-center flex-col h-full text-white space-y-3"
+              >
+                <h1 class="text-bold font-Comfortaa text-2xl text-center">
+                  QA Training
+                </h1>
+                <p class="text-center font-Poppins text-[16px] font-normal">
+                  World class training is just a step away
+                </p>
+                <button
+                  class="bg-white p-2 rounded text-sm text-black font-bold font-Comfortaa text-center"
+                >
+                  DEEP DIVE
+                </button>
+              </div>
+            </div>
+
+            <!---Image box 2-->
+            <div class="relative px-3">
+              <!--img-->
+              <img class="w-" src="./img/Group 412.png" alt="" srcset="" />
+              <!--Content-->
+              <div
+                class="absolute top-0 left-0 w-full px-5 flex justify-center items-center flex-col h-full text-white space-y-3"
+              >
+                <h1 class="text-bold font-Comfortaa text-2xl text-center">
+                  QA Training
+                </h1>
+                <p class="text-center font-Poppins text-[16px] font-normal">
+                  World class training is just a step away
+                </p>
+                <button
+                  class="bg-white p-2 rounded text-sm text-black font-bold font-Comfortaa text-center"
+                >
+                  DEEP DIVE
+                </button>
+              </div>
+            </div>
+
+            <!---Image box 3-->
+            <div class="relative px-3">
+              <!--img-->
+              <img class="w-" src="./img/Group 1 (3).png" alt="" srcset="" />
+              <!--Content-->
+              <div
+                class="absolute top-0 left-0 w-full px-5 flex justify-center items-center flex-col h-full text-white space-y-3"
+              >
+                <h1 class="text-bold font-Comfortaa text-2xl text-center">
+                  QA Training
+                </h1>
+                <p class="text-center font-Poppins text-[16px] font-normal">
+                  World class training is just a step away
+                </p>
+                <button
+                  class="bg-white p-2 rounded text-sm text-black font-bold font-Comfortaa text-center"
+                >
+                  DEEP DIVE
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!---About Qaboat--->
+      <section id="aboutQabout" class="py-16">
+        <div class="container mx-auto px-5 flex flex-col space-y-5">
+          <!--title-->
+          <h1 class="text-2xl font-Comforta text-center font-bold">
+            About <span class="text-QAboat-blue">QAboat</span>
           </h1>
-          <div class="">
-            <img src="./img/Group 412.png" alt="" srcset="">
-          </div>
-          <div class="">
-            <img src="./img/Group 413.png" alt="" srcset="">
-          </div>
-          <div class=''>
-            <img src="./img/Group 1 (2).png" alt="" srcset="">
+          <!--descriptio0n-->
+          <p class="font-light text-[16px] font-Poppins text-center">
+            QABoat is a leading training and consulting company specialised in
+            software testing, It is one stop destination for all yoursoftware
+            testing needs.
+          </p>
+          <!--img-->
+          <img src="./img/Group 1 (4).png" alt="" srcset="" />
+        </div>
+      </section>
+
+      <!--Vision-->
+      <section id="aboutQabout" class="py-10">
+        <div class="container mx-auto px-5 flex flex-col space-y-5">
+          <!--title-->
+          <h1 class="text-2xl font-Comforta text-center font-bold">
+            <span class="text-QAboat-blue">Vision</span>
+          </h1>
+          <!--descriptio0n-->
+          <p class="font-light text-[16px] font-Poppins text-center">
+            To provide excellent services with cost and time effective way! Your
+            product quality is our mission
+          </p>
+          <!--img-->
+          <img src="./img/Group 1 (5).png" alt="" srcset="" />
+        </div>
+      </section>
+
+      <!--Why us-->
+      <section id="whyUs" class="py-10">
+        <div class="container mx-auto px-5">
+          <!--titel-->
+          <h1 class="text-2xl font-Comforta text-center font-bold">
+            Why <span class="text-QAboat-blue">Us?</span>
+          </h1>
+          <!--flex-->
+          <div class="flex flex-col items-center justify-center space-y-12">
+            <!--item 1-->
+            <div class="card">
+              <h3
+                class="text-center font-medium text-xl font-Poppins text-QAboat-black"
+              >
+                165+
+              </h3>
+              <p class="font-Poppins font-normal text-[16px] text-center">
+                Full-time employees
+              </p>
+            </div>
+
+            <!--item 2-->
+            <div class="card">
+              <h3
+                class="text-center font-medium text-xl font-Poppins text-QAboat-black"
+              >
+                10M+
+              </h3>
+              <p class="font-Poppins font-normal text-[16px] text-center">
+                Client tests executed
+              </p>
+            </div>
+
+            <!--ITEM 3-->
+            <div class="card">
+              <h3
+                class="text-center font-medium text-xl font-Poppins text-QAboat-black"
+              >
+                30K+
+              </h3>
+              <p class="font-Poppins font-normal text-[16px] text-center">
+                Test runs completed
+              </p>
+            </div>
           </div>
         </div>
       </section>

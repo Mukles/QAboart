@@ -10,14 +10,16 @@ module.exports = {
         "QAboat-black": '#071F39'
 
       },
-      
       fontFamily:{
         Comfortaa: ["Comfortaa"],
         Poppins:["Poppins"]
       },
-      backgroundPosition{
-        "left-70": "70% 0",
+      backgroundPosition:{
+        "70": '61% 10%',
       },
+      backgroundSize:{
+        "133": '112% 100%',
+      }
     },
   },
   plugins: [],
